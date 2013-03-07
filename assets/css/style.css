@@ -1,0 +1,22 @@
+#ssla{margin-left:0;}
+.circle {
+	float: left;
+	position: relative;
+	margin: 0;
+	margin-top: 15%;
+	width:170px;
+	height: 170px;
+	border-radius: 50%;
+	background: #fff;
+	display:table;
+	bottom: 0;
+	border: solid 1em #c8cbc7;
+
+}
+.vs {	 
+   	text-align: center;
+   	margin-top:22%;
+   	vertical-align: middle;
+   	font-size: 4em;
+   	color:#595c5a;
+   }
