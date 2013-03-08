@@ -1,3 +1,7 @@
+body > .navbar {
+text-transform: uppercase;
+vertical-align: middle;
+}
 #ssla{margin-left:0;}
 .circle {
 	float: left;
@@ -13,10 +17,24 @@
 	border: solid 1em #c8cbc7;
 
 }
+
+.captialize{text-transform: uppercase;}
+.navbar i {vertical-align: baseline;}
 .vs {	 
    	text-align: center;
-   	margin-top:22%;
+   	margin-top:30%;
    	vertical-align: middle;
    	font-size: 4em;
    	color:#595c5a;
    }
+.scale{
+transform: scale(2,1.2);
+-ms-transform: scale(2,1.2); /* IE 9 */
+-webkit-transform: scale(2,1.2); /* Safari and Chrome */
+-o-transform: scale(2,1.2); /* Opera */
+-moz-transform: scale(2,1.2); /* Firefox */
+}
+.logos {text-align: center;}
+#stats{background-color: #F1F2F2;}
+#leaders{background-color: #E6E7E8;}
+#about{background-color: #D1D3D4;}
