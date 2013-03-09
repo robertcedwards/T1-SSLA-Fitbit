@@ -1,20 +1,33 @@
+@import url('http://fonts.googleapis.com/css?family=Montserrat');
+
+
 body > .navbar {
 text-transform: uppercase;
 vertical-align: middle;
 }
+iframe {
+    width: 960px;
+    height: 100%;
+    overflow: hidden;
+    border: none;
+}
+h1{font-size: 2em;}
+h2 {font-size:2.4em;}
+h3 {font-size:2.8em;}
+h1,h2,h3{ font-family: 'Montserrat', sans-serif;}
+
 #ssla{margin-left:0;}
 .circle {
 	float: left;
 	position: relative;
 	margin: 0;
 	margin-top: 15%;
-	width:170px;
-	height: 170px;
+	width:110px;
+	height: 110px;
 	border-radius: 50%;
 	background: #fff;
 	display:table;
-	bottom: 0;
-	border: solid 1em #c8cbc7;
+	border: solid 4px #c8cbc7;
 
 }
 
@@ -22,9 +35,10 @@ vertical-align: middle;
 .navbar i {vertical-align: baseline;}
 .vs {	 
    	text-align: center;
-   	margin-top:30%;
+   	margin-top:18%;
    	vertical-align: middle;
-   	font-size: 4em;
+   	font-size: 3.8em;
+   	font-weight: 700;
    	color:#595c5a;
    }
 .scale{
