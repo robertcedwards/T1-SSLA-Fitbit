@@ -1,6 +1,4 @@
 @import url('http://fonts.googleapis.com/css?family=Montserrat');
-
-
 body > .navbar {
 text-transform: uppercase;
 vertical-align: middle;
@@ -48,7 +46,13 @@ transform: scale(2,1.2);
 -moz-transform: scale(2,1.2); /* Firefox */
 }
 .logos {text-align: center;}
+#saatchi{padding-top: 15px;}
+#fitbit{padding-bottom: 10px;}
+
 #stats{background-color: #F1F2F2;}
 #leaders{background-color: #E6E7E8;}
 #about{background-color: #D1D3D4;}
-@media (max-width: 480px) {   float: inital; }
+
+#groupStats li {list-style: none;}
+.group{font-size: .75em;}
+.numbers{font-size: 3em}
