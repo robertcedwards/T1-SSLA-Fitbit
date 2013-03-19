@@ -51,6 +51,7 @@ transform: scale(2,1.2);
 #stats{background-color: #F1F2F2;}
 #leaders{background-color: #E6E7E8;}
 #about{background-color: #D1D3D4;}
+#share{background-color: #C1C1C1;}
 
 #groupStats {text-align: left;}
 #groupStats li {list-style: none;}
@@ -60,3 +61,5 @@ transform: scale(2,1.2);
 .groupAggregate:nth-of-type(1){color: #666666;}
 .groupAggregate:nth-of-type(2){color: #808080;}
 .groupAggregate:nth-of-type(3){color: #999999;}
+
+@media (max-width: 960px) { .circle{margin: 25px auto;} }
