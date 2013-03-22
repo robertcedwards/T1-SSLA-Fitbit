@@ -27,6 +27,7 @@ h1,h2,h3{ font-family: 'Montserrat', sans-serif;}
 
 }
 
+.title {color:#ff6a00;}
 .captialize{text-transform: uppercase;}
 .navbar i {vertical-align: baseline;}
 .vs {	 
@@ -61,5 +62,6 @@ transform: scale(2,1.2);
 .groupAggregate:nth-of-type(1){color: #666666;}
 .groupAggregate:nth-of-type(2){color: #808080;}
 .groupAggregate:nth-of-type(3){color: #999999;}
+.group-average{line-height: 35px;}
 
 @media (max-width: 960px) { .circle{margin: 25px auto;} }
